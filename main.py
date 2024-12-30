@@ -10,8 +10,8 @@ fig = px.line(
     df,
     x="date2",
     y="moving average",
-    title="Days Together vs. Apart",
-    labels={"moving average": "Days Together vs. Apart", "date2": "Date"},
+    title="Our Timeline",
+    labels={"moving average": "Our Timeline", "date2": "Date"},
     hover_data={"name": True, "adjusted days": True}
 )
 
