@@ -1,7 +1,5 @@
 import pandas as pd
-from datetime import date
 from datetime import date, datetime, timedelta
-import matplotlib.pyplot as plt
 
 
 class Dates:
